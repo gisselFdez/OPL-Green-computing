@@ -1,0 +1,7 @@
+!/bin/bash
+clear
+{
+    gzip -c9 file.psd > file.gz
+    echo "compress process finished"
+}&    
+./bin/powerapi 84 50 $!

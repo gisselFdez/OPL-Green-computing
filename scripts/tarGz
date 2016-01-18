@@ -1,0 +1,7 @@
+!/bin/bash
+clear
+{
+    tar cvzf file.tar.gz file.psd
+    echo "compress process finished"
+}&    
+./bin/powerapi 84 50 $!
